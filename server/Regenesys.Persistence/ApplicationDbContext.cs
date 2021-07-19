@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Regenesys.Domain.Entities;
 using System.Threading.Tasks;
 
 namespace Regenesys.Persistence
@@ -12,6 +13,8 @@ namespace Regenesys.Persistence
         {
             ChangeTracker.QueryTrackingBehavior = QueryTrackingBehavior.NoTracking;
         }
+
+        public DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
