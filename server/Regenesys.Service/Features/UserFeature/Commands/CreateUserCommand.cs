@@ -26,6 +26,7 @@ namespace Regenesys.Service.Features.UserFeature.Commands
             {
                 var user = _mapper.Map<User>(request.UserDto);
                 user.UserId = Guid.NewGuid();
+                user.DateStamp = DateTime.Now;
                 var userSaved = false;
                 if (user != null)
                 {

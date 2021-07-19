@@ -1,17 +1,23 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 
 namespace Regenesys.Domain.Entities
 {
     public class User
     {
         public Guid UserId { get; set; }
-        public string FirstName {get;set;}
-        public string LastName {get;set;}
-        public string IDNumberOrPassport {get;set;}
-        public string Nationality {get;set;}
-        public string EmailAddress {get;set;}
-        public string PhoneNumber {get;set;}
-        public string DateOfBirth {get;set;}
-        public DateTime DateStamp {get;set;}
+        [Required]
+        public string FirstName { get; set; }
+        [Required]
+        public string LastName { get; set; }
+        [Required]
+        public string IDNumberOrPassport { get; set; }
+        public string Nationality { get; set; }
+        [Required]
+        public string EmailAddress { get; set; }
+        [Phone]
+        public string PhoneNumber { get; set; }
+        public string DateOfBirth { get; set; }
+        public DateTime DateStamp { get; set; }
     }
 }
