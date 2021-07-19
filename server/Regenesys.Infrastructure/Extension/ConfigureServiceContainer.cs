@@ -5,6 +5,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Regenesys.Infrastructure.Mapping;
 using Regenesys.Persistence;
+using Regenesys.Service.Contract;
+using Regenesys.Service.Implementation;
 using System;
 using System.IO;
 using System.Reflection;
@@ -34,6 +36,7 @@ namespace Regenesys.Infrastructure.Extension
         public static void AddAddScopedServices(this IServiceCollection serviceCollection)
         {
             serviceCollection.AddScoped<IApplicationDbContext>(provider => provider.GetService<ApplicationDbContext>());
+            serviceCollection.AddScoped<IUserService, UserService>();
         }
 
         public static void AddSwaggerOpenAPI(this IServiceCollection serviceCollection)
