@@ -1,0 +1,16 @@
+C:\Users\musa.zulu\source\repos\PartB\PartB\obj\Debug\net5.0\PartB.csprojAssemblyReference.cache
+C:\Users\musa.zulu\source\repos\PartB\PartB\obj\Debug\net5.0\PartB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\musa.zulu\source\repos\PartB\PartB\obj\Debug\net5.0\PartB.AssemblyInfoInputs.cache
+C:\Users\musa.zulu\source\repos\PartB\PartB\obj\Debug\net5.0\PartB.AssemblyInfo.cs
+C:\Users\musa.zulu\source\repos\PartB\PartB\obj\Debug\net5.0\PartB.csproj.CoreCompileInputs.cache
+C:\Users\musa.zulu\source\repos\PartB\PartB\bin\Debug\net5.0\PartB.exe
+C:\Users\musa.zulu\source\repos\PartB\PartB\bin\Debug\net5.0\PartB.deps.json
+C:\Users\musa.zulu\source\repos\PartB\PartB\bin\Debug\net5.0\PartB.runtimeconfig.json
+C:\Users\musa.zulu\source\repos\PartB\PartB\bin\Debug\net5.0\PartB.runtimeconfig.dev.json
+C:\Users\musa.zulu\source\repos\PartB\PartB\bin\Debug\net5.0\PartB.dll
+C:\Users\musa.zulu\source\repos\PartB\PartB\bin\Debug\net5.0\ref\PartB.dll
+C:\Users\musa.zulu\source\repos\PartB\PartB\bin\Debug\net5.0\PartB.pdb
+C:\Users\musa.zulu\source\repos\PartB\PartB\obj\Debug\net5.0\PartB.dll
+C:\Users\musa.zulu\source\repos\PartB\PartB\obj\Debug\net5.0\ref\PartB.dll
+C:\Users\musa.zulu\source\repos\PartB\PartB\obj\Debug\net5.0\PartB.pdb
+C:\Users\musa.zulu\source\repos\PartB\PartB\obj\Debug\net5.0\PartB.genruntimeconfig.cache
